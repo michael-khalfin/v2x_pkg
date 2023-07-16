@@ -1,0 +1,7 @@
+<launch>
+	<group ns="actor1">
+		<node name="occupation_grid" pkg="v2x_pkg" type="occupation_grid.py" required="true" output="screen">
+		</node>
+	</group>
+
+</launch>
