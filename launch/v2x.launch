@@ -1,5 +1,5 @@
 <launch>
-	<group ns="actor1">
+	<group ns="actor1"> <!-- Make sure to insert the unique ACTor vehicle ID here -->
 		<node name="occupation_grid" pkg="v2x_pkg" type="occupation_grid.py" required="true" output="screen">
 		</node>
 	</group>

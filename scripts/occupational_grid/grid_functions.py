@@ -106,7 +106,6 @@ class GridFunctions:
 
         self.info = more_info
 
-    # ** I have not tested this function yet **
     # This function can ONLY be used by Grid
     # Updates vehicle object
     def update_vehicle(self, vehicle="", **kwargs):
@@ -240,10 +239,6 @@ class GridFunctions:
     def fresh_image(self):
         self.image = np.copy(self.image_copy)
 
-    # ** Bloated function **
-    # If you find a way to reuce the size of this
-    # please do so carefully, this si the backbone
-    # of the grid
     # deoccupies all squares, then redraws all squares,
     # updates their colors, 
     # draws newly unoccupied squares,
